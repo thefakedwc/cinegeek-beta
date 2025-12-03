@@ -40,6 +40,15 @@ export default async function Home() {
       visible: true,
     },
     {
+      title: 'Korean Shows',
+      req: {
+        requestType: RequestType.KOREAN,
+        mediaType: MediaType.TV,
+        genre: Genre.THRILLER,
+      },
+      visible: true,
+    },
+    {
       title: 'Comedy Movies',
       req: {
         requestType: RequestType.GENRE,
