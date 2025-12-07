@@ -6,6 +6,7 @@ const FrontLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen">
       <SiteHeader />
       <main>{children}</main>
+      <ChangelogModal />
       <SiteFooter />
     </div>
   );
